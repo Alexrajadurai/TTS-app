@@ -45,9 +45,9 @@ def main():
         audio = generate(text=text, voice=selected_voice)
         save(audio, "output/tts_output.wav")
         play(audio)
-        print("✅ Done! Audio saved to 'tts_output.wav'")
+        print(" Done! Audio saved to 'tts_output.wav'")
     except Exception as e:
-        print(f"❌ Something went wrong: {e}")
+        print(f" Something went wrong: {e}")
 
 if __name__ == "__main__":
     main()
